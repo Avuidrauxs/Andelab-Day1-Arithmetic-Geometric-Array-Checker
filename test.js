@@ -1,7 +1,14 @@
  
- 'use strict'
 
- var myApp = require('./app.js');
+
+ 
+
+ (function(){
+  'use strict';
+
+  var myApp = require('./app.js');
+
+  describe("Determine the sequence of an array of numbers: ", function() {
 
  describe("Case for an empty array", function() {
 
