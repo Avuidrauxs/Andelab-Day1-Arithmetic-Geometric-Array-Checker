@@ -2,7 +2,7 @@ module.exports={
 
  aritGeo : function (arr) {
 
-
+  //This function checks to see if array is Arithmetic progression
   function checkArit(arr){
       
       let aritDiff = arr[1] - arr[0];
@@ -15,6 +15,7 @@ module.exports={
       return true;
 }
 
+//This function checks to see if array is Geometric progression
 function checkGeo(arr){
       
       let geoDiv = arr[1] / arr[0];
