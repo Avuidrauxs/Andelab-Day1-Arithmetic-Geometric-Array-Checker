@@ -28,7 +28,7 @@ function checkGeo(arr){
       
     }
   
-   if (arr[0] < arr.length) return 0;
+   if (arr[0] === undefined) return 0;
    if(checkArit(arr))    return "Arithmetic";
    if(checkGeo(arr)) return "Geometric";
   
